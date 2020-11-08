@@ -1,0 +1,26 @@
+{
+  "name": "nodepop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=produccion  node ./bin/www",
+    "dev": "cross-env DEBUG=nodepop-Alva:* PORT=3100 NODE_ENV=desarrollo  nodemon .bin/www",
+    "init-db": "node ./init-db.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^7.0.2",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "eslint": "^7.9.0",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "i18n": "^0.13.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2"
+  }
+}

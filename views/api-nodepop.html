@@ -1,0 +1,62 @@
+<% include header.html %>
+
+<div class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+           
+            <div class="navbar navbar-default navbar-fixed-top">
+              </div>
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h1>Lista de anuncios</h1>
+                    <p class="lead">Listando:  </p>
+                  </div>
+                </div>
+              
+                <div class="row">
+                  <div class="col-md-12">
+                    <table class="table table-hover">
+                      <thead><tr>
+                        <th>Nombre</th>
+                        <th>Venta</th>
+                        <th style="text-align: right">Precio</th>
+                        <th>Foto</th>
+                        <th>Tags</th>
+                        <th>#</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                            <td> Bicicleta </td>
+                            <td> Si </td>
+                            <td style="text-align: right">200 €</td>
+                            <td><img src=""></td>
+                            <td>lifestyle</td>
+                            <td> 001 </td>
+                          </tr>
+            
+                      </tbody>
+                    </table>
+              
+                    <ul>
+                      <li><a href="?">Todos (max. 1000)</a></li>
+                      <li><a href="?start=2&limit=2">Paginado</a></li>
+                      <li><a href="?sort=precio">Ordenado por precio ascendente</a></li>
+                      <li><a href="?sort=-precio">Ordenado por precio descendente</a></li>
+                      <li><a href="?tag=mobile">Con tag mobile</a></li>
+                    </ul>
+              
+                  </div>
+                </div>
+              
+    
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+
+
+<% include footer.html %>
+
